@@ -1,0 +1,9 @@
+/target
+/.cargo
+/bin
+/pkg
+/.idea
+/migrations
+Cargo.lock
+rust-toolchain
+**/*.rs.bk

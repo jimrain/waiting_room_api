@@ -112,6 +112,8 @@ def user_queue_release(request, pk):
 
         qi.num_processed = qi.num_processed + 1
 
+
+
         serializer = QueueInfoSerializer(data=data)
 
         if serializer.is_valid():
